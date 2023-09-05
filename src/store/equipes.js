@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 /* Fotos dos Membros */
-import felipeVDLImg from "../imgs/membros/felipe-vdl.jpg";
+// import felipeVDLImg from "../imgs/membros/felipe-vdl.jpg";
 import ismaelImg from "../imgs/membros/ismael.jpg";
 import lucianoImg from "../imgs/membros/luciano.jpeg";
 import victorImg from "../imgs/membros/victor.jpeg";
@@ -9,6 +9,7 @@ import marceloImg from "../imgs/membros/marcelo.jpeg";
 import marcoBragaImg from "../imgs/membros/marco-braga.jpg";
 import marcosMurdockImg from "../imgs/membros/marcos-murdock.jpg";
 import eddyImg from "../imgs/membros/eddy.jpeg";
+// import jorgeMedeirosImg from "../imgs/membros/jorge-medeiros.jpg";
 
 const initialState = [
   {
@@ -17,7 +18,7 @@ const initialState = [
       {
         id: "felipe-vidal",
         nome: "Felipe Emanoel de Carvalho Vidal",
-        img: felipeVDLImg,
+        img: "https://github.com/felipe-vdl.png",
         biografia: "",
         github: "https://github.com/felipe-vdl",
         linkedin:
@@ -34,6 +35,7 @@ const initialState = [
         img: marcoBragaImg,
       },
       { id: "marcos-murdock", nome: "Marcos Murdock", img: marcosMurdockImg },
+      { id: "jorge-medeiros", nome: "Jorge Medeiros", img: "https://github.com/medeirosjorge.png", github: "https://github.com/medeirosjorge" },
     ],
     titulo: "",
     shadowColor: "shadow-indigo-800",
